@@ -1,4 +1,4 @@
-<div align="center"><p align="center"><a href="https://www.npmjs.com/package/react-fancy-circular-carousel"><img src="./src/assets/React.webp" alt="React Logo - Carousel UI Component" width="140px" /></a></p></div>
+<div align="center"><p align="center"><a href="https://www.npmjs.com/package/react-fancy-circular-carousel"><img src="https://github.com/ninadsutrave/react-fancy-circular-carousel/blob/master/src/assets/React.webp?raw=true" alt="React Logo - Carousel UI Component" width="140px" /></a></p></div>
 
 <h1 align="center">React Circular Carousel Component</h1>
 
@@ -47,9 +47,11 @@ Try the demo [here](https://carousel-demopage.netlify.app).
 | navigationButtonBgColor | String | `optional` Navigation button hex color as a string excluding the '#' |
 | navigationButtonStyling | React.CSSProperties | `optional` Custom styling for navigation buttons |
 
+
 ### Usage
 
 ```jsx
+
 import React from "react";
 
 import FancyCarousel from "react-fancy-circular-carousel";
@@ -59,7 +61,6 @@ import image1 from './assets/image1.png';
 import image2 from './assets/image2.png';
 import image3 from './assets/image3.png';
 import image4 from './assets/image4.png';
-
 
 const YourComponent = () => (
 
@@ -76,6 +77,7 @@ export default YourComponent;
 ### Retrieve focus element
 
 Utility using which one can know which element is currently at focus and may add relevant components around it. 
+
 For eg. if the carousel portrays images of cities, this feature may help you update the description in the information box along side the carousel.
 
 ```jsx
@@ -111,6 +113,7 @@ export default YourComponent;
 ### Customisations
 
 Customise the carousel to your needs such as modifying the carousel size, image size, adding styling such as drop shadow, adding auto rotate, etc
+
 The focusElementStyling and navigationButtonStyling props are of type React.CSSProperties, which is essentially a JavaScript object containing camelcased CSS properties and their corresponding values. 
 
 To know more check the official documentation [here](https://legacy.reactjs.org/docs/dom-elements.html#style).
@@ -151,16 +154,16 @@ export default YourComponent;
 
 With navigators
 
-![Preview Image](src/assets/preview1.png)
+![Preview Image](https://github.com/ninadsutrave/react-fancy-circular-carousel/blob/master/src/assets/preview1.png?raw=true)
 
 With auto rotation
 
-![Preview Gif](src/assets/preview2.gif)
+![Preview Gif](https://github.com/ninadsutrave/react-fancy-circular-carousel/blob/master/src/assets/preview2.gif?raw=true)
 
-## NPM Module
+## Github Repo
 
-[Npm Page](https://www.npmjs.com/package/react-fancy-circular-carousel)  
-Try it out for yourselves and ⭐ this repo if you like it!
+[Github Repo](https://github.com/ninadsutrave/react-fancy-circular-carousel)  
+Try it out for yourselves and ⭐ the repo if you like it!
 
 ## License
 
