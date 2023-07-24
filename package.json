@@ -2,7 +2,7 @@
   "name": "react-fancy-circular-carousel",
   "version": "1.0.8",
   "description": "Interactive circular carousel with image elements highly customisable as per the developer's needs",
-  "main": "index.js",
+  "main": "index.d.ts",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc && cp package.json README.md ./dist"
